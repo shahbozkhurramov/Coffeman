@@ -1,0 +1,8 @@
+.container {
+    padding: 10px 10px;
+    background-color: rgb(234, 234, 234);
+}
+
+.logo {
+    height: 30px; /* Smaller logo */
+}

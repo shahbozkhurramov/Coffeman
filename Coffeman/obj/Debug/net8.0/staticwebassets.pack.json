@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\obj\\Debug\\net8.0\\compressed\\2jpmjs5278.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Coffeman.styles.css",
+      "PackagePath": "staticwebassets\\Coffeman.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\Icons\\drink.svg",
+      "PackagePath": "staticwebassets\\Images\\Icons\\drink.svg"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\Icons\\milk.svg",
+      "PackagePath": "staticwebassets\\Images\\Icons\\milk.svg"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\Icons\\sandwich.svg",
+      "PackagePath": "staticwebassets\\Images\\Icons\\sandwich.svg"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\Icons\\search.svg",
+      "PackagePath": "staticwebassets\\Images\\Icons\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\croissant.jpg",
+      "PackagePath": "staticwebassets\\Images\\croissant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\drink.jpg",
+      "PackagePath": "staticwebassets\\Images\\drink.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\ice-cream.jpg",
+      "PackagePath": "staticwebassets\\Images\\ice-cream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\Images\\sandwich.jpg",
+      "PackagePath": "staticwebassets\\Images\\sandwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\data\\menu-data.json",
+      "PackagePath": "staticwebassets\\data\\menu-data.json"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\wwwroot\\js\\functions.js",
+      "PackagePath": "staticwebassets\\js\\functions.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Coffeman.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Coffeman.props",
+      "PackagePath": "build\\Coffeman.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Coffeman.props",
+      "PackagePath": "buildMultiTargeting\\Coffeman.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Coffeman.props",
+      "PackagePath": "buildTransitive\\Coffeman.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

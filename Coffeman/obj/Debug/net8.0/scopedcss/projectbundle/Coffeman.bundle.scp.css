@@ -1,0 +1,58 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.container[b-v6d9y21sxm] {
+    padding: 10px 10px;
+    background-color: rgb(234, 234, 234);
+}
+
+.logo[b-v6d9y21sxm] {
+    height: 30px; /* Smaller logo */
+}
+/* /Pages/Home.razor.rz.scp.css */
+.card[b-qlrwq86qbw] {
+    font-size: 0.875rem; /* Make text slightly smaller */
+    height: 190px; /* Set the height of the card */
+}
+.card img[b-qlrwq86qbw] {
+    height: 70%; /* Ensure the image height is limited to the container height */
+    width: 100%; /* Ensure the image width is limited to the container width */
+    margin: auto; /* Center the image */
+    display: block; /* Block-level element to remove any inline spacing */
+}
+
+
+.card-body[b-qlrwq86qbw] {
+    padding: 0.5rem; /* Reduce padding inside the card */
+}
+
+.card-title[b-qlrwq86qbw] {
+    font-size: 0.9rem; /* Smaller title */
+}
+
+.categories-scroll[b-qlrwq86qbw] {
+    scroll-behavior: smooth;
+}
+
+.categories-scroll[b-qlrwq86qbw]::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+.categories-scroll[b-qlrwq86qbw] {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.position-sticky[b-qlrwq86qbw] {
+    z-index: 1000; /* Ensure it stays on top while scrolling */
+    background-color: rgb(234, 234, 234);
+}
+
+.input-group[b-qlrwq86qbw] {
+    position: relative;
+}
+
+.input-group .form-control[b-qlrwq86qbw] {
+    padding-right: 2.5rem; /* Make space for the icon inside the input */
+    border-radius: 50px;
+    box-shadow: none;
+}
+

@@ -1,0 +1,48 @@
+.card {
+    font-size: 0.875rem; /* Make text slightly smaller */
+    height: 190px; /* Set the height of the card */
+}
+.card img {
+    height: 70%; /* Ensure the image height is limited to the container height */
+    width: 100%; /* Ensure the image width is limited to the container width */
+    margin: auto; /* Center the image */
+    display: block; /* Block-level element to remove any inline spacing */
+}
+
+
+.card-body {
+    padding: 0.5rem; /* Reduce padding inside the card */
+}
+
+.card-title {
+    font-size: 0.9rem; /* Smaller title */
+}
+
+.categories-scroll {
+    scroll-behavior: smooth;
+}
+
+.categories-scroll::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+.categories-scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.position-sticky {
+    z-index: 1000; /* Ensure it stays on top while scrolling */
+    background-color: rgb(234, 234, 234);
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group .form-control {
+    padding-right: 2.5rem; /* Make space for the icon inside the input */
+    border-radius: 50px;
+    box-shadow: none;
+}
+

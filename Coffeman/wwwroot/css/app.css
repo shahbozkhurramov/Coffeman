@@ -1,0 +1,36 @@
+.loader {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    text-align: center;
+}
+
+.col-4 {
+    padding: 0px 5px;
+}
+
+button:focus, .btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn img {
+    margin-right: 0.5rem; /* Space between the icon and text */
+    vertical-align: middle; /* Align the icon vertically with the text */
+    display: inline-block; /* Ensure the icon is inline with the text */
+}
+
+.btn {
+    border-radius: 50px;
+    display: inline-flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Center content horizontally */
+    padding: 0.375rem 1rem; /* Adjust padding for better alignment */
+}

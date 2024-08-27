@@ -1,0 +1,116 @@
+{
+  "Categories": [
+    {
+      "Id": "drink",
+      "Name": "Drinks",
+      "ImageUrl": "Images/Icons/drink.svg",
+      "MenuItems": [
+        {
+          "Id": "1",
+          "Name": "Fresh Drink",
+          "Price": "20 000",
+          "ImageUrl": "Images/drink.jpg"
+        },
+        {
+          "Id": "2",
+          "Name": "Orange Juice",
+          "Price": "26 000",
+          "ImageUrl": "Images/drink.jpg"
+        },
+        {
+          "Id": "3",
+          "Name": "Lemonade",
+          "Price": "12 000",
+          "ImageUrl": "Images/drink.jpg"
+        },
+        {
+          "Id": "4",
+          "Name": "Cold Brew Coffee",
+          "Price": "30 000",
+          "ImageUrl": "Images/drink.jpg"
+        }
+      ]
+    },
+    {
+      "Id": "milk",
+      "Name": "Milk",
+      "ImageUrl": "Images/Icons/milk.svg",
+      "MenuItems": [
+        {
+          "Id": "5",
+          "Name": "Ice Cream",
+          "Price": "18 000",
+          "ImageUrl": "Images/ice-cream.jpg"
+        },
+        {
+          "Id": "6",
+          "Name": "Milkshake",
+          "Price": "25 000",
+          "ImageUrl": "Images/ice-cream.jpg"
+        },
+        {
+          "Id": "7",
+          "Name": "Hot Chocolate",
+          "Price": "22 000",
+          "ImageUrl": "Images/ice-cream.jpg"
+        }
+      ]
+    },
+    {
+      "Id": "pastry",
+      "Name": "Pastries",
+      "ImageUrl": "Images/Icons/sandwich.svg",
+      "MenuItems": [
+        {
+          "Id": "8",
+          "Name": "Croissant",
+          "Price": "15 000",
+          "ImageUrl": "Images/croissant.jpg"
+        },
+        {
+          "Id": "9",
+          "Name": "Muffin",
+          "Price": "18 000",
+          "ImageUrl": "Images/croissant.jpg"
+        },
+        {
+          "Id": "10",
+          "Name": "Cinnamon Roll",
+          "Price": "20 000",
+          "ImageUrl": "Images/croissant.jpg"
+        },
+        {
+          "Id": "11",
+          "Name": "Donut",
+          "Price": "10 000",
+          "ImageUrl": "Images/croissant.jpg"
+        }
+      ]
+    },
+    {
+      "Id": "sandwich",
+      "Name": "Sandwiches",
+      "ImageUrl": "Images/Icons/sandwich.svg",
+      "MenuItems": [
+        {
+          "Id": "12",
+          "Name": "Chicken Sandwich",
+          "Price": "28 000",
+          "ImageUrl": "Images/sandwich.jpg"
+        },
+        {
+          "Id": "13",
+          "Name": "Beef Sandwich",
+          "Price": "32 000",
+          "ImageUrl": "Images/sandwich.jpg"
+        },
+        {
+          "Id": "14",
+          "Name": "Veggie Sandwich",
+          "Price": "24 000",
+          "ImageUrl": "Images/sandwich.jpg"
+        }
+      ]
+    }
+  ]
+}
