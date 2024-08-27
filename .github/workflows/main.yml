@@ -18,7 +18,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '8.0.x' # Make sure this matches your .NET version
+        dotnet-version: '7.0.x' # Make sure this matches your .NET version
 
     - name: Restore dependencies
       run: dotnet restore ./Coffeman/Coffeman.csproj
@@ -28,6 +28,10 @@ jobs:
 
     - name: Publish
       run: dotnet publish --configuration Release --output ./publish ./Coffeman/Coffeman.csproj
+
+    - name: Update base href in index.html
+      run: |
+        sed -i 's|<base href="/" />|<base href="/Coffeman/" />|' ./publish/wwwroot/index.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
