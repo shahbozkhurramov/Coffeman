@@ -34,3 +34,7 @@ button:focus, .btn:focus {
     justify-content: center; /* Center content horizontally */
     padding: 0.375rem 1rem; /* Adjust padding for better alignment */
 }
+
+.fw-semibold {
+    font-weight: 600;
+}

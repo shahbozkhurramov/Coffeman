@@ -4,10 +4,21 @@
 @inject MenuService menuService
 @inject IJSRuntime JSRuntime
 
+<div class="info-card rounded mb-3 p-3 d-flex justify-content-between align-items-center">
+    <div>
+        <h5 class="text-white">Your Daily Dose of</h5>
+        <h2 class="font-weight-bold">Caffeine</h2>
+    </div>
+    <img src="Images/coffee.png" alt="Coffee" class="img-fluid">
+</div>
+
+
+
+
 <!-- Search Input -->
 <div class="input-group my-3">
-    <input type="text" class="form-control" placeholder="Search...">
-    <button class="btn btn-secondary" type="button">
+    <input type="text"  @bind="searchText" @bind:event="oninput" class="form-control" placeholder="Search..." @onkeydown="HandleKeyPress">
+    <button class="btn search-btn" type="button" @onclick="FilterCategories">
         <img src="Images/Icons/search.svg" />
     </button>
 </div>
@@ -25,19 +36,19 @@
 </div>
 
 <!-- Items -->
-@foreach (var category in Categories)
+@foreach (var category in FilteredCategories)
 {
     <div id="@category.Id" class="px-2">
-        <h5 class="font-semibold">@category.Name</h5>
+        <h5>@category.Name</h5>
         <div class="row">
             @foreach (var item in category.MenuItems)
             {
                 <div class="col-4 mb-3">
                     <div class="card shadow-sm">
                         <img src="@item.ImageUrl" class="card-img-top">
-                        <div class="card-body p-2">
-                            <h6 class="card-title text-center">@item.Name</h6>
-                            <div class="text-secondary text-center">@item.Price</div>
+                        <div class="card-body">
+                            <div class="card-title fw-semibold text-center">@item.Name</div>
+                            <div class="card-price text-secondary text-center">@item.Price</div>
                         </div>
                     </div>
                 </div>
@@ -47,15 +58,46 @@
 }
 
 @code {
+    private string searchText = string.Empty;
     private Category[] Categories = Array.Empty<Category>();
+    private Category[] FilteredCategories = Array.Empty<Category>();
 
     protected override async Task OnInitializedAsync()
     {
         Categories = await menuService.GetCategoriesAsync();
+        FilteredCategories = Categories;
     }
 
     private async Task ScrollToCategory(string categoryId)
     {
         await JSRuntime.InvokeVoidAsync("scrollIntoViewById", categoryId);
+    }
+
+    private void HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            FilterCategories();
+        }
+    }
+
+    private void FilterCategories()
+    {
+        if (string.IsNullOrWhiteSpace(searchText))
+        {
+            FilteredCategories = Categories;
+            return;
+        }
+
+        FilteredCategories = Categories.Select(category => new Category
+            {
+                Id = category.Id,
+                Name = category.Name,
+                ImageUrl = category.ImageUrl,
+                MenuItems = category.MenuItems.Where(item => item.Name.Contains(searchText,
+                StringComparison.OrdinalIgnoreCase)).ToList()
+            })
+        .Where(category => category.MenuItems.Any())
+        .ToArray();
     }
 }

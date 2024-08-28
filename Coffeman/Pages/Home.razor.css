@@ -1,21 +1,76 @@
-.card {
-    font-size: 0.875rem; /* Make text slightly smaller */
-    height: 190px; /* Set the height of the card */
-}
-.card img {
-    height: 70%; /* Ensure the image height is limited to the container height */
-    width: 100%; /* Ensure the image width is limited to the container width */
-    margin: auto; /* Center the image */
-    display: block; /* Block-level element to remove any inline spacing */
+.info-card {
+    background-color: #28a745; /* Green background */
+    border-radius: 12px; /* Rounded corners */
+    padding: 15px;
+    height: 100px;
 }
 
+.info-card h5 {
+    margin: 0;
+    font-size: 1.2rem; /* Adjust the font size as needed */
+}
+
+.info-card h2 {
+    margin: 0;
+    font-size: 1.8rem; /* Adjust the font size as needed */
+}
+
+.info-card .text-danger {
+    color: #dc3545; /* Red color for 'Food' text */
+}
+
+.info-card img {
+    width: 100px;
+}
+
+
+
+
+
+.search-btn {
+    background-color: rgb(212, 204, 204);
+}
+
+.search-btn:hover {
+    background-color: rgb(193, 188, 188);
+}
+
+.card {
+    font-size: 0.875rem;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    height: 100px;
+    width: 100%;
+    display: block;
+}
 
 .card-body {
-    padding: 0.5rem; /* Reduce padding inside the card */
+    padding: 0.5rem; /* Padding inside the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns text to the top */
+    flex-grow: 1;
 }
 
-.card-title {
-    font-size: 0.9rem; /* Smaller title */
+.card-body .card-title {
+    font-size: 1rem; /* Base font size for title */
+    font-weight: 600; /* Semibold */
+    text-align: center;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Hides overflow text */
+    text-overflow: ellipsis; /* Adds ellipsis (...) to overflowing text */
+}
+
+.card-body .card-price {
+    font-size: 0.875rem; /* Slightly smaller font for price */
+    color: #6c757d; /* Secondary text color */
+    text-align: center;
+    margin-top: auto; /* Pushes the price to the bottom */
 }
 
 .categories-scroll {
