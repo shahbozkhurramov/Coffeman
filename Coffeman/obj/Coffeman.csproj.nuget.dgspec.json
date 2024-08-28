@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\Coffeman.csproj": {}
+    "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\Coffeman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\Coffeman.csproj": {
+    "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\Coffeman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\Coffeman.csproj",
+        "projectUniqueName": "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\Coffeman.csproj",
         "projectName": "Coffeman",
-        "projectPath": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\Coffeman.csproj",
+        "projectPath": "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\Coffeman.csproj",
         "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahb\\source\\repos\\Coffeman\\Coffeman\\obj\\",
+        "outputPath": "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
