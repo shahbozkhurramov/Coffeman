@@ -28,8 +28,8 @@
     <div class="d-flex overflow-auto categories-scroll">
         @foreach (var category in Categories)
         {
-            <button class="btn btn-outline-success me-2 rounded-pill" @onclick="() => ScrollToCategory(category.Id)">
-                <img src="@category.ImageUrl" /> @category.Name
+            <button class="btn btn-outline-info me-2 rounded-pill" @onclick="() => ScrollToCategory(category.Id)">
+                <img src="@category.ImageUrl" class="icon" /> <span style="color: black;">@category.Name</span>
             </button>
         }
     </div>

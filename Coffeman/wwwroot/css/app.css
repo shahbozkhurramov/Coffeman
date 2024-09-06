@@ -38,3 +38,8 @@ button:focus, .btn:focus {
 .fw-semibold {
     font-weight: 600;
 }
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
