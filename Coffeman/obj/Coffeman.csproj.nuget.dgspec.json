@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\Coffeman.csproj": {}
+    "C:\\Users\\Shahboz\\source\\repos\\Coffeman\\Coffeman\\Coffeman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\Coffeman.csproj": {
+    "C:\\Users\\Shahboz\\source\\repos\\Coffeman\\Coffeman\\Coffeman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\Coffeman.csproj",
+        "projectUniqueName": "C:\\Users\\Shahboz\\source\\repos\\Coffeman\\Coffeman\\Coffeman.csproj",
         "projectName": "Coffeman",
-        "projectPath": "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\Coffeman.csproj",
-        "packagesPath": "C:\\Users\\shahb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahb\\coding\\Coffeman\\Coffeman\\obj\\",
+        "projectPath": "C:\\Users\\Shahboz\\source\\repos\\Coffeman\\Coffeman\\Coffeman.csproj",
+        "packagesPath": "C:\\Users\\Shahboz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shahboz\\source\\repos\\Coffeman\\Coffeman\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shahboz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -52,13 +58,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             }
           },
@@ -73,18 +79,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.0, 8.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
