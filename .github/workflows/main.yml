@@ -29,6 +29,10 @@ jobs:
     - name: Publish
       run: dotnet publish --configuration Release --output ./publish ./Coffeman/Coffeman.csproj
 
+    # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
+    - name: Add .nojekyll file
+      run: touch release/wwwroot/.nojekyll
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
