@@ -3,8 +3,9 @@
 @using System.Text.Json
 @inject MenuService menuService
 @inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
 
-<a href="/SomePage">Click me</a>
+<button @onclick="NavigateToSomePage">Click me</button>
 
 <!-- Search Input -->
 <div class="input-group my-3">
@@ -90,5 +91,10 @@
             })
         .Where(category => category.MenuItems.Any())
         .ToArray();
+    }
+
+    private void NavigateToSomePage()
+    {
+        NavigationManager.NavigateTo("/SomePage");
     }
 }
