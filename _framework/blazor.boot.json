@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Coffeman",
   "resources": {
-    "hash": "sha256-dxFF5fEIm9dnLMVUx8vj0RfsAlh+Ih1/yUMf87iIMfs=",
+    "hash": "sha256-5nb0YTBxmMnSYWr8gZygHJylVi3NNH1bvPRTsqYPbX8=",
     "jsModuleNative": {
       "dotnet.native.8.0.11.n1sf6xr5tz.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "Coffeman.wasm": "sha256-tX25vsCA/gn3dFdII4At0+9fsdgNvJmIHOHyBeQSBpE=",
+      "Coffeman.wasm": "sha256-ghaDyniEAjnZPhPIpf7JxY3Lusn9ZxGvLdo3Xb3+wnk=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-jnxT0mb7V/HpYS0SqG+bG4ea0f3vwCupY56Gc1Q7Ea8=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-Bf8cIr0ekqcr+uvX3AeOpuSLwJH2+ZDiHO1eED2TOjE=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-Ws5szf6fWPAXna+XyWsAhavx+WDFcA/91DQ7iPRPCMs=",
